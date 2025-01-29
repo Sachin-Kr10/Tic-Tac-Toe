@@ -196,7 +196,7 @@ const getName = () => {
     let name = prompt("Please enter your name:");
     if (name) {
         alert(`Hello, ${name}!`);
-        player.innerText=`${name} O`;
+        player.innerText=`${name} O sc1`;
         
     } else {
         alert("No name entered.");
